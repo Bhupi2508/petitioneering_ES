@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  div#header
+    div#title
+      img(class='newappIcon' src='images/logo-graphic-white.png')
+      h1 Petitioneering
+  div#main
+    div#content
+      div#search-div
+        p Want to know what really matters to voters in your constituency? Type your postcode into the search box to find out...
+        h2 Search by Postcode
+        div#intro-div
+        form
+        input(id='postcode',name='postcode',type='text', placeholder="Enter postcode")
+        span(id='pcbutton', value="postcode") Submit
+        h2 Search by Constituency
+        form
+          select(id='constitlist')
+            option(value='')
+            each constituency, c in constituencies
+              option(value=constituency) #{constituency}
+      div#results-div
+        div#results

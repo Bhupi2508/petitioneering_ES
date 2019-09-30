@@ -1,0 +1,68 @@
+/* petitionwatch.css
+ * This file provides css styles.
+ */
+
+ body {
+   padding-bottom: 2rem;
+   background-color: #373737;
+ }
+
+ #main {
+   background-color: #3b4b54;
+   padding:2rem;
+ }
+
+
+#title, #content, #footer-content {
+    max-width: 1020px;
+    margin:0 auto;
+ }
+
+ #header,#footer {
+   background: #373737;
+   padding: 2rem 0;
+ }
+ #title {
+
+   font-size:2rem;
+ }
+input {
+  padding:0.25rem;
+}
+
+#pcbutton, #conbutton, #kwbutton {
+  cursor: default;
+  margin:0 1rem;
+  text-align: center;
+  background: #373737;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+}
+
+#results {
+  padding:1rem 0 2rem;
+}
+
+ol.petition-results li {
+  margin-bottom:1rem;
+}
+
+.list-item-head, .list-item-info {
+ display:block;
+ margin-top: .25rem;
+}
+
+.list-item-head {
+  font-weight:700;
+}
+
+.list-item-info {
+  margin: 0.5rem 1rem 0;
+}
+
+ @media (max-width:1060px) {
+   #title, #content {
+     margin:0 1rem;
+   }
+ }

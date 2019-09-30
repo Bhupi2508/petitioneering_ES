@@ -1,0 +1,35 @@
+{
+  "name": "petitioneering",
+  "version": "0.0.2",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cfenv": "1.0.x",
+    "elasticsearch": "*",
+    "express": "4.13.x",
+    "get-json": "0.0.3",
+    "http-post": "^0.1.1",
+    "http-proxy": "^1.8.1",
+    "pug": "2.0.0-alpha6"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/compose-ex/petitioneering.git"
+  },
+  "author": "Compose",
+  "contributors": [
+    {
+      "name": "Neil Dewhurst",
+      "email": "neil@compose.io"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/compose-ex/petitioneering/issues"
+  }
+}

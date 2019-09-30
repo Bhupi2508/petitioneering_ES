@@ -1,0 +1,24 @@
+doctype html
+html
+    head
+        title='Petitioneering'
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='/stylesheets/petitioneering.css')
+    body
+        block content
+        script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+        script(src='/javascripts/main.js')
+    footer
+        block footer
+          div#footer
+            div#footer-content
+              p
+                | Petitioneering uses open data from 
+                a(href='https://petition.parliament.uk') UK Government and Parliament
+                | , indexed in  
+                a(href='https://elastic.co') Elasticsearch
+                | , hosted by 
+                a(href='https://compose.com') Compose
+              p
+                | Application source available from 
+                a(href='https://github.com/compose-ex/petitioneering') Github
